@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+  font-family: 'Roboto';
+  font-family:'Space Mono';
+  font-family: 'Inconsolata';
+}
+.page{
+    background:floralwhite;
+    Width: 1440px;
+    height: 1080px;
+    margin:auto;
+        justify-content:center;
+    align-items:center;
+}
+
+
+.Middle{
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.MiddleRight h2{
+    display: flex;
+width: 586px;
+flex-direction: column;
+flex-shrink: 0;
+ color: var(--gray-1, #333);
+ font-size: 64px;
+ font-family: Space Mono;
+ font-weight: 700;
+ letter-spacing: -2.24px;
+}
+
+.MiddleRight h5{
+    display: flex;
+width: 381px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-2, #4F4F4F);
+font-size: 24px;
+font-family: Space Mono;
+letter-spacing: -0.84px;
+}
+
+.MiddleRight button{
+    width: 216px;
+height: 68px;
+flex-shrink: 0;
+background: var(--gray-1, #333);
+color: aliceblue;
+}
